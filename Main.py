@@ -5,9 +5,7 @@ class Evaluate:
       size_of_stack: An integer which represents the size of stack.
       stack: A List which acts as a Stack.
   """
-    # Write your code here
-
-
+  
   def __init__(self, size):
     """Inits Evaluate with top, size_of_stack and stack.
     Arguments:
@@ -85,7 +83,7 @@ class Evaluate:
     Returns:
       The result of evaluated postfix expression.
     """
-    # Write your code here
+   
     stack = []
     for i in expression:
       if i.isnumeric():
